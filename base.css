@@ -37,10 +37,24 @@ h1 {
     }
 @media screen and (max-width: 1000px) {
 
+	#map-canvas {
+	width: 95vw;
+	height: 80vh;}
+
+.title{
+	font-size: 28px;
+}
+
 }
 
 @media screen and (max-width: 800px) {
+#map-canvas {
+	width: 90vw;
+	height: 80vh;}
 
+.title{
+	font-size: 25px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -49,5 +63,7 @@ h1 {
 	height: 80vh;
 
 }
-
+.title{
+	font-size: 20px;
+}
 }
