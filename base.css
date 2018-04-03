@@ -35,3 +35,21 @@ h1 {
     .gm-style-iw {
       text-align: center;
     }
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+#map-canvas {
+	margin: 0 auto;
+	width: 100vw;
+	height: 80vh;
+	border: 3px, ridge;
+	border-color: peachpuff;
+}
+
+}
